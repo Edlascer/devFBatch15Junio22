@@ -1,0 +1,11 @@
+Clase 1 
+
+Node JS:
+ NO ES:
+    - Un lenguaje de programación
+    - Javascript
+    - Un lenguaje de servidor
+    - Orientado al back end
+
+ SI ES:
+    - Un entorno de ejecución de JS fuera del browser.
