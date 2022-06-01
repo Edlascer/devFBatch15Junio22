@@ -9,3 +9,20 @@ Node JS:
 
  SI ES:
     - Un entorno de ejecución de JS fuera del browser.
+
+
+31/05/2022
+(browser junto con su JS engine o interprete del navegador)
+Browser: Entorno en donde se ejecuta el lenguaje
+   | -> Instrucciones de JS(lenguaje de alto nivel o sea muy parecido al humano) -> Interpretación del lenguaje se hace en tiempo real
+
+      | -> Assembler -> Traduce las instrucciones de alto nivel y las pasa a direcciones de memoria
+         
+         |Machine code (lenguaje maquina) = 010101 -> Pulsos eléctricos
+
+Compilación:Traducción desde alto nivel a machin code 
+Node JS interpreta el lenguaje JS, mas no lo compila
+
+Crear un programa y ejecutarlo con node:  
+   - Una función que multiplique dos números, sin usar el símbolo de multiplicación
+   
