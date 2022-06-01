@@ -25,4 +25,13 @@ Node JS interpreta el lenguaje JS, mas no lo compila
 
 Crear un programa y ejecutarlo con node:  
    - Una función que multiplique dos números, sin usar el símbolo de multiplicación
-   
+
+
+Definición de Javascript:
+   Lenguaje de alto nivel (parecido al lenguaje humano), tipado debil, concurrente de un solo hilo, 
+   no bloqueante y asíncrono orientado a prototipos
+
+Tipado debil/dinámico  --> var tres = 'tres' -> No especifica el tipo de dato
+
+int X = 10; -> Especifica el tipo de dato, tipado fuerte/estático
+
