@@ -1,16 +1,13 @@
-'use strict'
+//Archivo creado para testear nodemon
+"use strict"
 
 let cont = 0;
 
-const multiplicacion = (numb1, numb2) => {
+const multiply = (stNum, ndNum) => {
     let result = 0;
-    for (cont = 0; cont < numb2; cont++) {
-        result += numb1
-
+    for (cont = 0; cont < ndNum; cont++) {
+        result += stNum;
     }
-    return console.log(result)
+    return console.log(`The result (multiply) is: ${result}`);
 }
-
-multiplicacion(5, 8);
-
-
+multiply(8, 9);

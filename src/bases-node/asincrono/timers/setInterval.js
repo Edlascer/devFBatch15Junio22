@@ -1,10 +1,8 @@
-'use strict'
+"use strict"
 
-
-let cuenta = 0;
+let cuenta = 1
 
 const incremental = setInterval(() => {
-    if (cuenta === 4) return clearInterval(incremental)
-    return  console.log(cuenta++)
-}, 1000);
-
+    if (cuenta === 7) return clearInterval(incremental) 
+    return console.log(cuenta++)
+}, 1000)

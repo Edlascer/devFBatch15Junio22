@@ -1,21 +1,20 @@
+//funciòn anònima que se guarda dentro de una variable/constante.
+//Las arrow functions, no son compatibles con el objeto this
+
+//estructura
 const suma = (a, b) => {
     return a + b
 }
-
-console.log(suma(3,18))
-
-// Arrow function -> Función anónima que se guarda en una variable/constante
-
-// Si solo retornas una cosa, puedes obviar paréntesis y la palabra return
-
-// const suma = (a, b) => a + b
+console.log(suma(10, 18))
 
 
-// Si me pasas un parámetro, puedes quitar las llaves
+//========================================================
+//Si solo retornas una cosa, puedes obviar parèntesis y la palabra reservada 'return'
+const suma = (a, b) => a + b
+console.log(suma(8, 18))
 
-const hola = (nombre) =>  'Hola, ' + nombre
 
-console.log(hola('Enrique!'))
-
-// La sintaxis es lo único que diferencía a una arrow function de una función de primer nombre
-// Las arrow functions no son compatibles con el objeto this
+//========================================================
+//si solo pasas un parametro, puedes quitarle los parentesis
+const hola = nombre => 'Hola, ' + nombre
+console.log(hola('Samantha!'))

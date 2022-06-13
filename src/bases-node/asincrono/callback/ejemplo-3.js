@@ -1,11 +1,11 @@
-'use strict'
+"use strict"
 
-function soyCien () { return 100 }
-function soyDosCientos () { return 200 }
+function soyCien() { return 100 }
+function soyDoscientos() { return 200 }
 
-function sumaDosFunciones (unaFuncion, otraFuncion) {
-    const suma = unaFuncion() + otraFuncion();
+function sumaDosFunciones(unaFuncion, otraFuncion) {
+    const suma = unaFuncion() + otraFuncion()
     return suma
 }
 
-console.log(sumaDosFunciones(soyCien, soyDosCientos))
+console.log(sumaDosFunciones(soyCien, soyDoscientos))
