@@ -1,5 +1,5 @@
 //estructura de una de primer orden
-function () {
+function x() {
     console.log('holi')
 }
 
